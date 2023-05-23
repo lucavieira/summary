@@ -192,3 +192,11 @@ main .feature .quality {
     justify-content: center;
     gap: 10px;
 }
+
+main .feature .test-result {
+    color: #a1a1a1;
+}
+
+main .feature .test-result strong {
+    color: #1e2844;
+}
