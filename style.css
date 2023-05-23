@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    height: 100vh;
+
+    display: flex;
+    gap: 15px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+main .result, main .summary {
+    width: 260px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 25px 0px 50px;
+}
+
+main .result {
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-image: linear-gradient(to bottom, #6541FD, #302DEE);
+}
+
+main .result h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #c5c5c5;
+}
+
+main .result .score {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(to bottom, #4B23CC, #4634EF);
+    
+    border-radius: 50%;
+}
+
+main .result .score strong {
+    font-size: 52px;
+    color: #fff;
+}
+
+main .result .score span {
+    font-size: 13px;
+    color: #cccccc95;
+}
+
+main .result .rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    text-align: center;
+}
+
+main .result .rating h2 {
+    font-weight: 500;
+    color: #fff;
+}
+
+main .result .rating p {
+    width: 65%;
+    font-size: 13px;
+    color: #c5c5c5;
+}
+
+main .summary {
+    width: 300px;
+
+    display: flex;
+    gap: 15px;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    box-shadow: 9px 7px 20px -16px #000000;
+
+    position: relative;
+    right: 40px;
+}
+
+main .summary h2 {
+    margin-left: 60px;
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+    color: #303B59;
+}
+
+main .summary .btn {
+    width: 64%;
+    padding: 12px;
+
+    margin-left: 60px;
+
+    background-color: #303B59;
+    color: #fff;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+main .features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 60px;
+}
+
+main .feature {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main #reaction {
+    background-color: #FFF6F5;
+}
+
+main #reaction .quality {
+    color: #d3616c;
+}
+
+main #memory {
+    background-color: #FFFAF3;
+}
+
+main #memory .quality {
+    color: #ddb14c;
+}
+
+main #verbal {
+    background-color: #F3FBFA;
+}
+
+main #verbal .quality {
+    color: #41B094;
+}
+
+main #visual {
+    background-color: #F2F3FC;
+}
+
+main #visual .quality {
+    color: #4448B1;
+}
+
+main .feature .quality {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
