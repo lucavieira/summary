@@ -207,8 +207,12 @@ main .feature .test-result strong {
         flex-direction: column;
     }
 
+    main .summary, main .result {
+        width: 270px;
+        height: 370px;
+    }
+
     main .summary {
-        width: 265px;
         right: 0px;
         border-radius: 20px;
     }
