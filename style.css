@@ -200,3 +200,16 @@ main .feature .test-result {
 main .feature .test-result strong {
     color: #1e2844;
 }
+
+
+@media (max-width: 580px) {
+    main {
+        flex-direction: column;
+    }
+
+    main .summary {
+        width: 265px;
+        right: 0px;
+        border-radius: 20px;
+    }
+}
